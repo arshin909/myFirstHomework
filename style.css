@@ -1,0 +1,85 @@
+#wrapper {
+    width: 1000px;
+    height: 1150px;
+    outline: 1px solid black;
+    margin: 0px auto;
+}
+header {
+    height: 200px;
+    outline: 1px solid black;
+    position: relative;
+}
+    .logo {
+        height: 170px;
+        float: left;
+        padding-top: 10px;
+    }
+    header p {
+        font: 14pt serif;
+        font-weight: bold;
+        line-height: 30px;
+        padding-top: 5px;
+    }
+nav {
+    width: 530px;
+    height: 30px;
+    outline: 1px solid black;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+    nav ul {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav li {
+        list-style-type: none;
+        padding: 0px 5px;
+        /* outline: 1px solid black; */
+        line-height: 30px;
+    }
+    nav a {
+        text-decoration: none;
+    }
+    nav a:hover, nav a.active {
+        color: red;
+        text-decoration: underline;
+    }
+#left, #right {
+    width: 200px;
+    height: 750px;
+    outline: 1px solid black;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+main {
+    width: 600px;
+    height: 750px;
+    outline: 1px solid black;
+    margin: 0px 200px;
+}
+    main h1 {
+        margin: 0px;
+        padding: 5px 20px;
+    }
+    main p {
+        padding: 0px 20px;
+        text-align: justify;
+    }
+footer {
+     height: 200px;
+     outline: 1px solid black;
+}
+    footer p {
+        margin: 0px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 180px;
+    }
